@@ -1,0 +1,73 @@
+.contenido__ingenieria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.contenido__1{
+    width: 45%;
+}
+
+.lis{
+    margin-bottom: 15px;
+}
+
+.cont__paraf{
+    margin-bottom: 150px;
+}
+
+.contenido__img{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.img__ing{
+    width: 90%;
+    
+}
+
+.content__ing{
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: gray;
+}
+
+.cont__l{
+    color: gray;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    .subtitulo__asis{
+        font-size: 20px;
+    }
+
+    .contenido__1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contenido__img{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .subtitulo__ing{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+}
+
+

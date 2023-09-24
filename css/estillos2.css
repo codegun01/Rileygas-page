@@ -1,0 +1,124 @@
+.banner{
+    height: 40vh;
+}
+
+.cont__insta{
+    text-align: center;
+}
+
+
+.cont__cardInst{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card__insta{
+   width: 80%;
+   background: #F4F6F6;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap-reverse;
+   padding: 2rem;
+   margin-bottom: 50px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.img__inst{
+    width: 400px;
+}
+
+.body__cardInsta{
+    width: 40%;
+    color: gray;
+}
+
+.titulo__cardInst{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+
+.subtitlo__cardInsta{
+    margin-bottom: 10px;
+}
+
+.cont__paraf{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.cont__insta{
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.cont__inst2{
+    font-size: 15px;
+    margin-bottom: 50px;
+    color: gray;
+    line-height: 1.5em;
+    
+}
+
+.card__1, .card__3,
+.card__5{
+    flex-direction: row-reverse;
+}
+
+.card__left{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.btn__contc{
+    width: 250px;
+    height: 35px;
+    border: none;
+    background: #009efd;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.btn__contac{
+    text-decoration: none;
+    color: #F4F6F6;
+}
+
+
+.btn__contc:hover{
+    opacity: 0.5;
+}
+
+.contenedor__btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 800px) {
+    .subtitulo__instalaciones{
+        font-size: 35px;
+    }
+    .card__insta{
+        width: 100%;
+    }
+
+    .img__inst{
+        width: 100%;
+    }
+    
+    .body__cardInsta{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+}
